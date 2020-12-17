@@ -1,0 +1,214 @@
+.older-posts {
+  grid-area: old-posts;
+  background-color: #F6F6F6;
+  padding: 10px;
+  min-height: auto;
+}
+
+
+.older-posts__items {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 15%;
+  height: auto;
+}
+
+
+.older-post__title h2 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 20px;
+  color: #484333;
+  font-weight: 300;
+}
+
+
+.older-posts-items__columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5px;
+  height: auto;
+}
+
+
+.card-older-posts {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  justify-content: center;
+  align-content: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 6px 5px 15px rgb(#484333, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+
+.card-older-post__image img {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  object-fit: cover;
+}
+
+
+.card-older-post__content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px;
+  line-height: 20px;
+}
+
+
+.card-older-post-content__data {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+
+.card-older-post-content-data__gategory {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #FFC961;
+  letter-spacing: 2px;
+}
+
+
+.card-older-post-content-data__card-date {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 7px;
+}
+
+
+.card-older-post-content__title h3 {
+  margin-top: 20px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  line-height: 29px;
+}
+
+
+.card-older-post-content__brif {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 12px;
+  font-weight: 200px;
+}
+
+
+.card-older-post-content__info {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+
+.card-older-post-content-info__author span {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 7px;
+  letter-spacing: .5px;
+}
+
+
+.card-older-post-content-info__read-more button {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 9px;
+  color: #fff;
+  background-color: #FFC961;
+  border-radius: 6px;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.hvr-fade:hover {
+  background-color: #9bbea0;
+}
+
+
+/* Tablit screen */
+@media screen and (min-width: 730px) {
+
+  .card-older-post__content {
+    padding: 25px;
+  }
+
+
+  .card-older-post-content-data__gategory {
+    font-size: 15px;
+  }
+
+
+  .card-older-post-content-data__card-date {
+    font-size: 8px;
+  }
+
+
+  .card-older-post-content__title h3 {
+    font-size: 20px;
+    font-weight: 900;
+  }
+
+
+  .card-older-post-content__brif {
+    font-size: 13px;
+  }
+
+
+  .card-older-post-content-info__author span {
+    font-size: 11px;
+    padding: 10px;
+  }
+
+
+  .card-older-post-content-info__read-more button {
+    font-size: 11px;
+    padding: 8px;
+  }
+}
+
+
+/* Desktop screen */
+@media screen and (min-width: 1018px) {
+  .card-older-posts {
+    width: 340px;
+    height: 550px;
+  }
+}
+
+@media screen and (min-width: 1027px) {
+  .card-older-posts {
+    width: 350px;
+    height: 550px;
+  }
+
+
+  .older-post__title h2 {
+    font-size: 33px;
+  }
+}
+
+@media screen and (min-width: 1405px) {
+  .card-older-posts {
+    width: 320px;
+    height: 550px;
+    gap: 10px;
+  }
+
+
+  .older-post__title h2 {
+    font-size: 33px;
+  }
+}

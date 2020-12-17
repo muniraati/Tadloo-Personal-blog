@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5rem;
+  background-color: #ffffff;
+  color: #252A32;
+}
+
+
+/* Homepage Layout */
+.container {
+  display: grid;
+  grid-template-rows: auto .3fr auto 1fr .1fr .06fr;
+  grid-template-areas:
+    "  header    "
+    "  about     "
+    "  recent    "
+    "  old-posts "
+    "  subscribe "
+    "  footer    "
+  ;
+}
+
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+/* Post Page Layout */
+.post-container {
+  display: grid;
+  grid-template-rows: auto .7fr 2.5fr .3fr .2fr .7fr auto;
+  grid-template-areas:
+    "  header    "
+    "  title     "
+    "  main      "
+    "  share     "
+    "  category  "
+    "  author    "
+    "  footer    "
+  ;
+}
+
+
+/* tablet screen */
+@media screen and (min-width:426px) {
+  .post-container {
+    display: grid;
+    grid-template-rows: auto .9fr 2.3fr .3fr .2fr .7fr auto;
+    grid-template-areas:
+      "  header    "
+      "  title     "
+      "  main      "
+      "  share     "
+      "  category  "
+      "  author    "
+      "  footer    "
+    ;
+  }
+}
+
+
+/* Desktop screen */
+@media screen and (min-width:768px) {
+  .post-container {
+    display: grid;
+    grid-template-rows: auto .8fr 2fr .1fr .1fr .3fr auto;
+    grid-template-areas:
+      "  header    "
+      "  title     "
+      "  main      "
+      "  share     "
+      "  category  "
+      "  author    "
+      "  footer    "
+    ;
+  }
+}
+
+
+/* Desktop screen */
+@media screen and (min-width:920px) {
+  .post-container {
+    display: grid;
+    grid-template-rows: auto 1fr 2fr .1fr .1fr .3fr auto;
+    grid-template-areas:
+      "  header    "
+      "  title     "
+      "  main      "
+      "  share     "
+      "  category  "
+      "  author    "
+      "  footer    "
+    ;
+  }
+}

@@ -1,0 +1,20 @@
+/* Logo styling */
+.nav-items__logo {
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+  margin: 0rem 1rem;
+  color: #242020;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-items__logo {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .nav-items__logo {
+    font-size: 50px;
+    margin: 0rem 2.5rem;
+  }
+}

@@ -1,0 +1,41 @@
+.post-category {
+  grid-area: category;
+  padding: 25px 30px;
+  height: 100%;
+}
+
+
+.post-gategory__items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+
+.post-gategory__items h3 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  padding-bottom: 20px;
+  color: #484333;
+}
+
+
+.post-gategory__items a {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #FFC961;
+  border-bottom: 1.5px solid #FFC961; 
+}
+
+
+.line-break {
+  margin: 20px 30px 10px 30px;
+  border-bottom: .5px solid #91908f;  
+}
+
+/* Desktop screen */
+@media screen and (min-width: 700px){
+  .line-break {
+display: none; 
+  }
+}
+

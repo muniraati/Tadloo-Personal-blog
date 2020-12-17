@@ -1,0 +1,35 @@
+/* font-family: 'Montserrat Alternates', sans-serif; 
+  font-family: 'Poppins', sans-serif;
+*/
+
+/* 
+#FFC961 
+ #484333
+*/
+.post-share {
+  grid-area: share;
+  padding: 25px 30px;
+}
+
+.post-share__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post-share__items h3 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  padding-bottom: 20px;
+  color: #484348;
+}
+
+.post-share-items__icons {
+  display: flex;
+  justify-content: center;
+  gap:15px;
+  margin-top: 10px;
+  color: #484348;
+}
+
+
+

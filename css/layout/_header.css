@@ -1,0 +1,7 @@
+.header {
+  grid-area: header;
+  background-color: #F6F6F6;
+  padding: 10px;
+  min-height: auto;
+  z-index: 4;
+}

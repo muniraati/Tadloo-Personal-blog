@@ -1,0 +1,217 @@
+.recent {
+  grid-area: recent;
+  background-color: #fff;
+  min-height: auto;
+  height: 100%;
+}
+
+
+.recent__items {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 15%;
+  height: auto;
+}
+
+
+.recent__title h2 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 20px;
+  color: #484333;
+  font-weight: 400;
+}
+
+
+.card-recent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  justify-content: center;
+  align-content: center;
+  background-color: #fff;
+  border-radius: 8px;
+  height: 100%;
+}
+
+
+.card-recent__image img {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  object-fit: cover;
+}
+
+
+.card-recent__content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px;
+  line-height: 20px;
+}
+
+
+.card-recent-content__data {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+
+.card-recent-content-data__gategory {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #FFC961;
+  letter-spacing: 2px;
+}
+
+
+.card-recent-content-data__card-date {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 7px;
+}
+
+
+.card-recent-content__title h3 {
+  margin-top: 20px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  line-height: 28px;
+}
+
+
+.card-recent-content__brif {
+  margin: 19px 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+
+.card-recent-content__info {
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+
+.card-recent-content-info__author span {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 7px;
+}
+
+
+.card-recent-content-info__read-more button {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 9px;
+  color: #fff;
+  background-color: #FFC961;
+  border-radius: 6px;
+  padding: 8px;
+  border: none;
+}
+
+
+.hvr-fade:hover {
+  background-color: #9bbea0;
+  cursor: pointer;
+}
+
+
+/* Tablet screen */
+@media screen and (min-width: 768px) {
+  .recent__title h2 {
+    font-size: 25px;
+    font-weight: 400;
+  }
+
+
+  .card-recent-content-data__gategory {
+    font-size: 15px;
+  }
+
+
+  .card-recent-content-data__card-date {
+    font-size: 8px;
+  }
+
+
+  .card-recent-content__title h3 {
+    font-size: 20px;
+    font-weight: 900;
+  }
+
+
+  .card-recent-content__brif {
+    font-size: 13px;
+  }
+
+
+  .card-recent-content-info__author span {
+    font-size: 10px;
+  }
+
+
+  .card-recent-content-info__read-more button {
+    font-size: 11px;
+    padding: 8px;
+  }
+}
+
+
+/* Desktop Screen */
+@media screen and (min-width: 1024px) {
+  .card-recent__content {
+    padding: 25px;
+  }
+
+
+  .card-recent__image img {
+    height: 300px;
+  }
+
+
+  .recent__title h2 {
+    font-size: 33px;
+  }
+
+
+  .card-recent-content-data__gategory {
+    font-size: 20px;
+  }
+
+
+  .card-recent-content-data__card-date {
+    font-size: 10px;
+  }
+
+
+  .card-recent-content__title h3 {
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: 900;
+  }
+
+
+  .card-recent-content__brif {
+    font-size: 17px;
+  }
+
+
+  .card-recent-content-info__author span {
+    font-size: 13px;
+  }
+
+  
+  .card-recent-content-info__read-more button {
+    font-size: 13px;
+    padding: 8px;
+  }
+}
